@@ -61,26 +61,37 @@ console.log(average)
 
 
 
- // Use the following data 
-let ageOne = 23;
-let userOne = "Josh";
-
 // // Write a Script that checks to see if userOne name is Josh AND that this user is Older than 18
 // If True, console log -> "User and Age Match"
 // If False, console log -> "User and Age Do Not Match"
+let ageOne = 23;
+let userOne = "Josh";
 
-for(let age >= 18 ||)
+
+if(ageOne >= 18 && userOne === "Josh"){
+    console.log("User and age match")
+}else{
+    console.log("User and age does not match")
+
+}
 
 
 
-let ageTwo = 16;
-let userTwo = "Jacob";
 
 
 // Write a Script that checks to see if userTwo name is Peter OR that this user is Younger than 18
 // If True, console log -> "User is Younger than 18 or is Peter"
 // If False, console log -> "User is Younger than 18 and is Not Peter"
+let ageTwo = 16;
+let userTwo = "Jacob";
 
+
+if(ageOne <= 18 || userTwo === "Peter"){
+    console.log("User is Younger than 18 or is Peter")
+}else{
+    console.log("User is Younger than 18 and is Not Peter")
+
+}
 
 
 
